@@ -1,0 +1,21 @@
+<style>
+.image-wrapper{
+  max-width:90%;
+  height:auto;
+  display:block;
+  margin: auto;
+}
+
+.image-wrapper img{
+  height:auto;
+  display:block;
+  text-align: center;
+  margin: auto;
+  max-width: 100%; 
+}
+</style>
+
+<div class="image-wrapper">
+    <img src="{{ include.url }}" alt="{{ include.description }}" style="width:{{ include.maxwidth }} !important">
+</div>
+

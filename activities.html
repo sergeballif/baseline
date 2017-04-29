@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h2>Science Mom</h2>
+    </div>
+</section>
+<section id="main" class="wrapper style1">
+    {% for post in site.posts %}
+      {% if post.sciencemom %}
+        {% if post.experiment1image %}
+        <section class="container">
+            {% include /table1.html %}
+        </section>
+        {% endif %}
+        {% if post.experiment2image %}
+        <section class="container">
+            {% include /table2.html %}
+        </section>
+        {% endif %}
+        {% if post.experiment3image %}
+        <section class="container">
+            {% include /table3.html %}
+        </section> 
+        {% endif %}
+        {% if post.experiment4image %}
+        <section class="container">
+            {% include /table4.html %}
+        </section> 
+        {% endif %}
+        {% if post.experiment5image %}
+        <section class="container">
+            {% include /table5.html %}
+        </section> 
+        {% endif %}
+         {% if post.experiment6image %}
+        <section class="container">
+            {% include /table6.html %}
+        </section> 
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+</section>
