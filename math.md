@@ -97,7 +97,7 @@ function myFunction() {
     var fruits = document.getElementById("txtSearch").value;
 
     switch(fruits) {
-        case "smelly jelly bean":
+        case "smellyjellybean":
             text = "Excellent. The next adventure is at ...";
         break;
         case "Orange":
