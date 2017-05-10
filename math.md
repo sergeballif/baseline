@@ -124,7 +124,7 @@ function myFunction() {
 <section id="main" class="wrapper style1">
 
 <div class="container">
-<h2>Gnomes of Grid</h2>
+<h2>Gnomes of Grid --- Under Construction</h2>
 <div class="boxx effect7">
 
 <form>  
